@@ -1,12 +1,3 @@
-# Тут пример обновления данных с отловом ошибки
-# from services.get_valutes import get_currency_data
-# from database.database_update import update_data
-#
-# try:
-#     update_data(get_currency_data())
-#     print('all good')
-# except Exception as e:
-#     print(f'СЛУЧИЛАСЬ ОШИБКА, {e}')
 import asyncio
 import logging
 
